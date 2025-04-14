@@ -56,7 +56,7 @@ export default defineConfig([
 			unicorn: eslintPluginUnicorn,
 		},
 		rules: {
-			'prettier/prettier': 'error',
+			'prettier/prettier': ['error', { endOfLine: 'auto' }],
 
 			// Error prevention
 			'array-callback-return': ['error', { checkForEach: true }],
