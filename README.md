@@ -16,7 +16,7 @@ La carpeta de trabajo es:
 <!-- markdownlint-disable-next-line MD013 -->
 - 👉 [`html`](https://github.com/GaleedGutierrez/pv_tp2_grupo13/tree/main/html "html")
 <!-- markdownlint-disable-next-line MD013 -->
-- 👉 [`css`](https://github.com/GaleedGutierrez/pv_tp2_grupo13/tree/main/html "css")
+- 👉 [`css`](https://github.com/GaleedGutierrez/pv_tp2_grupo13/tree/main/css "css")
 
 ## ⚙️ Requisitos para el desarrollo
 
