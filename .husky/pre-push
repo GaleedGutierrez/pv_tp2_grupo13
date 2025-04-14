@@ -1,5 +1,6 @@
 npx lint-staged
 npm run prettier:fix
+npm run lint-md:fix
 npm run check-for-dupes
 # npm run test
 # npm run test:e2e

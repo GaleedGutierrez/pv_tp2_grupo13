@@ -6,8 +6,7 @@
 
 Las consignas del trabajo práctico están aquí:
 
-<!-- markdownlint-disable-next-line MD013 -->
-👉 [Consignas TP N°2](https://github.com/GaleedGutierrez/pv_tp1_grupo13/tree/main/assignment/Trabajo-Practico-2.pdf "Trabajo-Practico-2.pdf")
+👉 [Consignas TP N°2](https://github.com/GaleedGutierrez/pv_tp1_grupo13/tree/main/assignment/Trabajo-Practico-2.pdf "Trabajo-Practico-2.pdf") <!-- markdownlint-disable-line MD013 -->
 
 ## 📂 Carpeta de trabajo
 
