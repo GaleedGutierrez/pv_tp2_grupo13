@@ -10,7 +10,7 @@ Las consignas del trabajo práctico están aquí:
 
 ## 📂 Carpeta de trabajo
 
-La carpeta de trabajo es:
+Las carpetas de trabajo son:
 
 - 👉 [`js`](https://github.com/GaleedGutierrez/pv_tp2_grupo13/tree/main/js "js")
 <!-- markdownlint-disable-next-line MD013 -->
