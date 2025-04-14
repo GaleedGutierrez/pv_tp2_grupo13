@@ -1,0 +1,5 @@
+html {
+	height: 100%;
+	font-size: var(--fs-base);
+	scroll-behavior: smooth;
+}

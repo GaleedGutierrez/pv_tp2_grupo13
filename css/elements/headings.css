@@ -1,0 +1,32 @@
+h1 {
+	font-size: var(--fs-title-xl);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-xl);
+}
+
+h2 {
+	font-size: var(--fs-title-lg);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-lg);
+}
+
+h3 {
+	font-size: var(--fs-title-md);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-md);
+}
+
+h4 {
+	font-size: var(--fs-title-sm);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-sm);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-heading);
+}

@@ -1,0 +1,54 @@
+:root {
+	/* Width */
+	--max-width-1: 102.4rem;
+	--max-width-element-001: 40rem;
+
+	/* Screens - In this case 1rem = 16px only in media queries */
+	--screen-tablet: 48rem;
+	--screen-desktop: 64rem;
+
+	/* Space */
+	--space-0: 0;
+	--space-025: 0.1rem;
+	--space-05: 0.2rem;
+	--space-1: 0.4rem;
+	--space-2: 0.8rem;
+	--space-3: 1.2rem;
+	--space-4: 1.6rem;
+	--space-5: 2rem;
+	--space-6: 2.4rem;
+	--space-7: 2.8rem;
+	--space-8: 3.2rem;
+	--space-9: 3.6rem;
+	--space-10: 4rem;
+	--space-11: 4.4rem;
+	--space-12: 4.8rem;
+	--space-13: 5.2rem;
+	--space-14: 5.6rem;
+	--space-15: 6rem;
+	--space-16: 6.4rem;
+	--space-17: 6.8rem;
+	--space-18: 7.2rem;
+	--space-20: 8rem;
+	--space-24: 9.6rem;
+	--space-25: 10rem;
+	--space-28: 11.2rem;
+	--space-32: 12.8rem;
+	--space-100: 40rem;
+
+	/* Border */
+	--border-025: 0.1rem;
+	--border-05: 0.2rem;
+	--border-1: 0.4rem;
+	--border-2: 0.8rem;
+
+	/* Border radios */
+	--border-radius-05: 0.2rem;
+	--border-radius-1: 0.4rem;
+	--border-radius-2: 0.8rem;
+	--border-radius-3: 1.2rem;
+	--border-radius-4: 1.6rem;
+	--border-radius-5: 2rem;
+	--border-radius-6: 2.4rem;
+	--border-radius-circle: 50%;
+}

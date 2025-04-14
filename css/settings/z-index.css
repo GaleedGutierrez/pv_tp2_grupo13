@@ -1,0 +1,11 @@
+:root {
+	/* Z-Index Scale (private vars) */
+	--z-index-1: 1;
+	--z-index-10: 10;
+
+	/* Z-Index Applications */
+	--z-index-1-screen-foreground: var(--z-index-1);
+
+	/* Z index para debugging */
+	--z-index-10-dev: var(--z-index-10);
+}

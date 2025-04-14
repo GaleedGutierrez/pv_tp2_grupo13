@@ -1,0 +1,25 @@
+:root {
+	/* Typography scale */
+	--fs-base: 62.5%;
+
+	/* Weight */
+	--weight-light: 300;
+	--weight-black: 900;
+
+	/* Typography applications */
+	--fs-body-sm: 1.8rem;
+	--fs-body-md: 2.2rem;
+	--fs-title-xs: 2rem;
+	--fs-title-sm: 3.6rem;
+	--fs-title-md: 6rem;
+	--fs-title-lg: 7rem;
+	--fs-title-xl: 9.6rem;
+
+	/* Line Height */
+	--lh-body-sm: 2.8rem;
+	--lh-body-md: 3.2rem;
+	--lh-title-sm: 3.6rem;
+	--lh-title-md: 6rem;
+	--lh-title-lg: 7rem;
+	--lh-title-xl: 8.8rem;
+}

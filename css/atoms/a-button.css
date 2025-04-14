@@ -1,0 +1,45 @@
+/* stylelint-disable no-descending-specificity */
+.a-button {
+	display: inline-flex;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:active .a-button__text {
+		background-color: var(--gold);
+	}
+
+	&:active .a-button__flecha {
+		background-color: var(--almost-black);
+	}
+
+	.a-button__text {
+		inline-size: 100%;
+		padding: var(--space-5) var(--space-7);
+		background-color: var(--almost-black);
+		color: var(--white);
+		font-family: var(--font-heading);
+		font-size: var(--fs-title-xs);
+		letter-spacing: 0.364rem;
+	}
+
+	.a-button__flecha {
+		display: flex;
+		align-items: center;
+		padding-inline: var(--space-6);
+		background-color: var(--gold);
+		color: var(--white);
+	}
+}
+
+.a-button--reverse {
+	.buton__text {
+		order: 1;
+	}
+
+	.a-button__flecha {
+		rotate: 180deg;
+		order: 0;
+	}
+}

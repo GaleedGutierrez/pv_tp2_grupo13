@@ -1,0 +1,41 @@
+/* stylelint-disable no-descending-specificity */
+.a-input__label {
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:
+		"label error"
+		"input input";
+	gap: var(--space-2);
+
+	&:has(.a-input:not(:focus, :placeholder-shown):invalid) {
+		color: var(--red);
+	}
+
+	&:has(.a-input:not(:focus, :placeholder-shown):invalid) .a-input__error {
+		display: initial;
+	}
+}
+
+.a-input {
+	grid-area: input;
+	padding: var(--space-4) var(--space-6);
+	border: var(--border-05) solid var(--dark-gray);
+	background-color: transparent;
+	outline: none;
+	caret-color: var(--gold);
+
+	&:focus-visible {
+		border-color: var(--gold);
+	}
+
+	&:not(:focus, :placeholder-shown):invalid {
+		border-color: var(--red);
+	}
+}
+
+.a-input__error {
+	display: none;
+	grid-area: error;
+	justify-self: end;
+}

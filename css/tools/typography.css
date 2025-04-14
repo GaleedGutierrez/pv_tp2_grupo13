@@ -1,0 +1,49 @@
+.heading-xl {
+	font-family: var(--font-heading);
+	font-size: var(--fs-title-xl);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-xl);
+}
+
+.heading-lg {
+	font-family: var(--font-heading);
+	font-size: var(--fs-title-lg);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-lg);
+}
+
+.heading-md {
+	font-family: var(--font-heading);
+	font-size: var(--fs-title-md);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-md);
+}
+
+.heading-sm {
+	font-family: var(--font-heading);
+	font-size: var(--fs-title-sm);
+	font-weight: var(--weight-black);
+	line-height: var(--lh-title-sm);
+}
+
+.body-md {
+	font-family: var(--font-body);
+	font-size: var(--fs-body-md);
+	font-weight: var(--weight-light);
+	line-height: var(--lh-body-md);
+}
+
+.body-sm {
+	font-family: var(--font-body);
+	font-size: var(--fs-body-sm);
+	font-weight: var(--weight-light);
+	line-height: var(--lh-body-sm);
+}
+
+.font-big-shoulders {
+	font-family: "Big Shoulders", var(--font-fallback-tahoma);
+}
+
+.font-poppins {
+	font-family: Poppins, var(--font-fallback-poppins);
+}

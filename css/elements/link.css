@@ -1,0 +1,12 @@
+a {
+	color: var(--dark-gray);
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:active {
+		color: var(--gold);
+	}
+}
