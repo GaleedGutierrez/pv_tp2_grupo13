@@ -12,3 +12,6 @@
 
 /* Atoms */
 @import url("./atoms/index.css");
+
+/* Utilities */
+@import url("./utilities/index.css");

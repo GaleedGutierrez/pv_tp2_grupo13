@@ -1,0 +1,21 @@
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.gap-5 {
+	gap: var(--space-5);
+}
+
+.mb-b-5 {
+	margin-block-end: var(--space-5);
+}
+
+.h-screen {
+	block-size: 100vh;
+}
