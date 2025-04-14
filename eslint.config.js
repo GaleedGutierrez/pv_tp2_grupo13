@@ -11,7 +11,6 @@ import eslintPluginImportX from 'eslint-plugin-import-x';
 import jsdoc from 'eslint-plugin-jsdoc';
 import eslintPluginJsonc from 'eslint-plugin-jsonc';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
-import pluginSecurity from 'eslint-plugin-security';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import sortClassMembers from 'eslint-plugin-sort-class-members';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
@@ -33,7 +32,6 @@ export default defineConfig([
 		},
 	},
 	eslintPluginImportX.flatConfigs.recommended,
-	pluginSecurity.configs.recommended,
 	eslintPluginPrettierRecommended,
 	...eslintPluginJsonc.configs['flat/recommended-with-jsonc'],
 	...eslintPluginJsonc.configs['flat/prettier'],
