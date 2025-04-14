@@ -12,9 +12,11 @@ Las consignas del trabajo práctico están aquí:
 
 La carpeta de trabajo es:
 
-- 👉 [`js`](https://github.com/GaleedGutierrez/pv_tp1_grupo13/tree/main/js "js")
+- 👉 [`js`](https://github.com/GaleedGutierrez/pv_tp2_grupo13/tree/main/js "js")
 <!-- markdownlint-disable-next-line MD013 -->
-- 👉 [`html`](https://github.com/GaleedGutierrez/pv_tp1_grupo13/tree/main/html "html")
+- 👉 [`html`](https://github.com/GaleedGutierrez/pv_tp2_grupo13/tree/main/html "html")
+<!-- markdownlint-disable-next-line MD013 -->
+- 👉 [`css`](https://github.com/GaleedGutierrez/pv_tp2_grupo13/tree/main/html "css")
 
 ## ⚙️ Requisitos para el desarrollo
 
