@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<style>
+			:root {
+				--font-fallback-base:
+					system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+					"Noto Sans", helvetica, arial, sans-serif,
+					"Apple Color Emoji", "Segoe UI Emoji";
+				--font-fallback-tahoma:
+					"Adjusted Tahoma Fallback", var(--font-fallback-base);
+				--font-fallback-poppins:
+					"Adjusted Arial Fallback", var(--font-fallback-base);
+				--font-heading: "Big Shoulders", var(--font-fallback-tahoma);
+				--font-body: Poppins, var(--font-fallback-poppins);
+			}
+			@font-face {
+				font-family: "Adjusted Tahoma Fallback";
+				src: local(Tahoma);
+				size-adjust: 99%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: -1.7px;
+				word-spacing: 0px;
+				font-size: 16px;
+			}
+
+			@font-face {
+				font-family: "Adjusted Arial Fallback";
+				src: local(Arial);
+				size-adjust: 109%;
+				descent-override: 43%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: 0.95px;
+				word-spacing: -0.65px;
+			}
+
+			@font-face {
+				font-family: "Big Shoulders";
+				src:
+					local("Big Shoulders Display"),
+					local("BigShouldersDisplay"),
+					url("../assets/fonts/big-shoulders/big-shoulders-v2-latin-900.woff2")
+						format("woff2");
+				font-weight: var(--weight-black);
+				font-style: normal;
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: "Poppins";
+				src:
+					local("Poppins"),
+					local("Poppins"),
+					url("../assets/fonts/poppins/Poppins-Light.woff2")
+						format("woff2");
+				font-weight: var(--weight-light);
+				font-style: normal;
+				font-display: swap;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			href="../css/index.css"
+		/>
+		<title>Ejercicio 23</title>
+	</head>
+	<body>
+		<main class="h-screen flex-center gap-5 flex-col px-5">
+			<h1>Ejercicio 23</h1>
+			<h2>Selecciona tu lenguaje de programación favorito</h2>
+
+			<form class="w-full">
+				<fieldset class="p-5">
+					<legend>Lenguajes de programación:</legend>
+
+					<div class="flex flex-col gap-5">
+						<label
+							for="javascript"
+							class="flex items-center gap-5"
+						>
+							<input
+								id="javascript"
+								type="radio"
+								name="lenguaje"
+								value="JavaScript"
+								class="a-radio"
+							/>
+							<span>JavaScript</span>
+						</label>
+
+						<label
+							for="python"
+							class="flex items-center gap-5"
+						>
+							<input
+								id="python"
+								type="radio"
+								name="lenguaje"
+								value="Python"
+								class="a-radio"
+							/>
+							<span>Python</span>
+						</label>
+
+						<label
+							for="java"
+							class="flex items-center gap-5"
+						>
+							<input
+								id="java"
+								type="radio"
+								name="lenguaje"
+								value="Java"
+								class="a-radio"
+							/>
+							<span>Java</span>
+						</label>
+
+						<label
+							for="cplusplus"
+							class="flex items-center gap-5"
+						>
+							<input
+								id="cplusplus"
+								type="radio"
+								name="lenguaje"
+								value="C++"
+								class="a-radio"
+							/>
+							<span>C++</span>
+						</label>
+
+						<label
+							class="flex items-center gap-5"
+							for="csharp"
+						>
+							<input
+								id="csharp"
+								type="radio"
+								name="lenguaje"
+								value="PHP"
+								class="a-radio"
+							/>
+							<span>PHP</span>
+						</label>
+					</div>
+				</fieldset>
+			</form>
+
+			<div class="bg-slate-100 p-5 rounded-md w-full max-w-md">
+				<h3 class="mb-b-5">Lenguaje seleccionado:</h3>
+				<p
+					id="resultado"
+					class="font-bold"
+				>
+					No has seleccionado ningún lenguaje todavía.
+				</p>
+			</div>
+		</main>
+		<script
+			type="module"
+			src="../js/ejercicio23.js"
+		></script>
+	</body>
+</html>
