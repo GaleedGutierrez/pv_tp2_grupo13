@@ -37,13 +37,13 @@ const COUNTRIES_AND_CAPITALS = {
  * @param {Country} country - Nombre del país
  * @returns {Capital | undefined} - Nombre de la capital o mensaje de error
  */
-function getCapital(country) {
+const getCapital = (country) => {
 	if (country in COUNTRIES_AND_CAPITALS) {
 		return COUNTRIES_AND_CAPITALS[country];
 	}
 
 	return;
-}
+};
 
 SELECT_COUNTRIES.addEventListener('change', () => {
 	if (
