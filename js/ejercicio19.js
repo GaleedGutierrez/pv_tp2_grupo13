@@ -13,6 +13,7 @@ function obtenerDatos() {
 
 /**
  *  Muestra los datos ingresados en una alerta.
+ * @param {{ nombre: string, apellido: string, libreta: string }} datos Objeto con los datos del formulario.
  * */
 function mostrarDatos(datos) {
 	alert(`Los datos ingresados son:
