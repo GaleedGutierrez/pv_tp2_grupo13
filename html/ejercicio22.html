@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<style>
+			:root {
+				--font-fallback-base:
+					system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+					"Noto Sans", helvetica, arial, sans-serif,
+					"Apple Color Emoji", "Segoe UI Emoji";
+				--font-fallback-tahoma:
+					"Adjusted Tahoma Fallback", var(--font-fallback-base);
+				--font-fallback-poppins:
+					"Adjusted Arial Fallback", var(--font-fallback-base);
+				--font-heading: "Big Shoulders", var(--font-fallback-tahoma);
+				--font-body: Poppins, var(--font-fallback-poppins);
+			}
+			@font-face {
+				font-family: "Adjusted Tahoma Fallback";
+				src: local(Tahoma);
+				size-adjust: 99%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: -1.7px;
+				word-spacing: 0px;
+				font-size: 16px;
+			}
+
+			@font-face {
+				font-family: "Adjusted Arial Fallback";
+				src: local(Arial);
+				size-adjust: 109%;
+				descent-override: 43%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: 0.95px;
+				word-spacing: -0.65px;
+			}
+
+			@font-face {
+				font-family: "Big Shoulders";
+				src:
+					local("Big Shoulders Display"),
+					local("BigShouldersDisplay"),
+					url("../assets/fonts/big-shoulders/big-shoulders-v2-latin-900.woff2")
+						format("woff2");
+				font-weight: var(--weight-black);
+				font-style: normal;
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: "Poppins";
+				src:
+					local("Poppins"),
+					local("Poppins"),
+					url("../assets/fonts/poppins/Poppins-Light.woff2")
+						format("woff2");
+				font-weight: var(--weight-light);
+				font-style: normal;
+				font-display: swap;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			href="../css/index.css"
+		/>
+		<title>Ejercicio 22</title>
+	</head>
+	<body>
+		<main class="h-screen flex-center gap-5 flex-col px-5">
+			<h1>Ejercicio 22:</h1>
+			<form class="w-full">
+				<label
+					for="input-text"
+					class="a-input__label"
+				>
+					<span>Ingresa un texto</span>
+					<input
+						id="input-text"
+						name="input-text"
+						type="text"
+						placeholder="Escribe lo que quieras"
+						class="a-input"
+					/>
+				</label>
+			</form>
+			<p
+				id="see-text-field"
+				class="self-start p-5"
+			>
+				No hay texto
+			</p>
+		</main>
+		<script
+			type="module"
+			src="../js/ejercicio22.js"
+		></script>
+	</body>
+</html>
