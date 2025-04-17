@@ -11,8 +11,8 @@ const calcularPromedio = (array) => {
 	});
 
 	return suma / array.length;
-} ;
-
+};
 
 const promedio = calcularPromedio(edades);
+
 console.info(`El promedio de las edades es: ${promedio}`);

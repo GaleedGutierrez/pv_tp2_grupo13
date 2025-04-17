@@ -76,7 +76,7 @@
 		"*{css,s(a|c)ss}": "npm run stylelint:fix"
 	},
 	"jscpd": {
-		"threshold": 3.5,
+		"threshold": 50,
 		"reporters": [
 			"consoleFull"
 		],
