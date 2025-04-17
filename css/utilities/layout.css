@@ -19,3 +19,15 @@
 .h-screen {
 	block-size: 100vh;
 }
+
+.w-full {
+	inline-size: 100%;
+}
+
+.px-5 {
+	padding-inline: var(--space-5);
+}
+
+.self-start {
+	align-self: flex-start;
+}
