@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<style>
+			:root {
+				--font-fallback-base:
+					system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+					"Noto Sans", helvetica, arial, sans-serif,
+					"Apple Color Emoji", "Segoe UI Emoji";
+				--font-fallback-tahoma:
+					"Adjusted Tahoma Fallback", var(--font-fallback-base);
+				--font-fallback-poppins:
+					"Adjusted Arial Fallback", var(--font-fallback-base);
+				--font-heading: "Big Shoulders", var(--font-fallback-tahoma);
+				--font-body: Poppins, var(--font-fallback-poppins);
+			}
+			@font-face {
+				font-family: "Adjusted Tahoma Fallback";
+				src: local(Tahoma);
+				size-adjust: 99%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: -1.7px;
+				word-spacing: 0px;
+				font-size: 16px;
+			}
+
+			@font-face {
+				font-family: "Adjusted Arial Fallback";
+				src: local(Arial);
+				size-adjust: 109%;
+				descent-override: 43%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: 0.95px;
+				word-spacing: -0.65px;
+			}
+
+			@font-face {
+				font-family: "Big Shoulders";
+				src:
+					local("Big Shoulders Display"),
+					local("BigShouldersDisplay"),
+					url("../assets/fonts/big-shoulders/big-shoulders-v2-latin-900.woff2")
+						format("woff2");
+				font-weight: var(--weight-black);
+				font-style: normal;
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: "Poppins";
+				src:
+					local("Poppins"),
+					local("Poppins"),
+					url("../assets/fonts/poppins/Poppins-Light.woff2")
+						format("woff2");
+				font-weight: var(--weight-light);
+				font-style: normal;
+				font-display: swap;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			href="../css/index.css"
+		/>
+		<title>Ejercicio 13</title>
+		<script>
+			/**
+			 * @description Pide al usuario una cantidad de números y los almacena en un arreglo
+			 * @returns {[number]} Un arreglo con los números ingresados por el usuario
+			 */
+			const pedirNumeros = () => {
+				const cantidad = parseInt(
+					prompt("¿Cuántos números va a ingresar?"),
+					10,
+				);
+				const arreglo = [];
+
+				for (let index = 0; index < cantidad; index++) {
+					const numero = parseFloat(
+						prompt(`Ingrese el número ${index + 1}:`),
+					);
+
+					arreglo.push(numero);
+				}
+
+				return arreglo;
+			};
+
+			/**
+			 *
+			 * @description Muestra un alert por cada número del arreglo
+			 * @param {[number]} numeros
+			 * @returns {void}
+			 */
+			const mostrarArreglo = (numeros) => {
+				numeros.forEach((valor) => {
+					alert(`Número: ${valor}`);
+				});
+			};
+
+			const numeros = pedirNumeros();
+
+			mostrarArreglo(numeros);
+		</script>
+	</head>
+	<body>
+		<h1>Ejercicio 13</h1>
+	</body>
+</html>
