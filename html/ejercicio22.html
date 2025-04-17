@@ -69,34 +69,36 @@
 			rel="stylesheet"
 			href="../css/index.css"
 		/>
-		<title>Document</title>
+		<title>Ejercicio 22</title>
 	</head>
 	<body>
-		<h2>Ejemplo de botton</h2>
-		<button class="a-button">
-			<span class="a-button__text"> Botón de ejemplo </span>
-		</button>
-		<br />
-		<br />
-		<h2>Ejemplo de input</h2>
-		<form>
-			<label
-				for="campo"
-				class="a-input__label"
+		<main class="h-screen flex-center gap-5 flex-col px-5">
+			<h1>Ejercicio 22:</h1>
+			<form class="w-full">
+				<label
+					for="input-text"
+					class="a-input__label"
+				>
+					<span>Ingresa un texto</span>
+					<input
+						id="input-text"
+						name="input-text"
+						type="text"
+						placeholder="Escribe lo que quieras"
+						class="a-input"
+					/>
+				</label>
+			</form>
+			<p
+				id="see-text-field"
+				class="self-start p-5"
 			>
-				<span class="a-label">Campo de texto</span>
-				<input
-					type="email"
-					id="campo"
-					class="a-input"
-					placeholder="Campo de texto"
-				/>
-				<span class="a-input__error">Error</span>
-			</label>
-		</form>
+				No hay texto
+			</p>
+		</main>
 		<script
 			type="module"
-			src="../js/ejemplo.js"
+			src="../js/ejercicio22.js"
 		></script>
 	</body>
 </html>

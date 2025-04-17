@@ -69,34 +69,22 @@
 			rel="stylesheet"
 			href="../css/index.css"
 		/>
-		<title>Document</title>
+		<title>ejercicio11</title>
+		<script>
+			const km = parseFloat(prompt("Ingrese los kilómetros recorridos:"));
+			const ls = parseFloat(
+				prompt("Ingrese los litros de combustible consumidos:"),
+			);
+
+			const consumoPorKm = ls / km;
+
+			alert(
+				`El consumo de combustible por kilómetro es: ${consumoPorKm.toFixed(2)} litros/km`,
+			);
+		</script>
 	</head>
+	<title>Ejercicio 11</title>
 	<body>
-		<h2>Ejemplo de botton</h2>
-		<button class="a-button">
-			<span class="a-button__text"> Botón de ejemplo </span>
-		</button>
-		<br />
-		<br />
-		<h2>Ejemplo de input</h2>
-		<form>
-			<label
-				for="campo"
-				class="a-input__label"
-			>
-				<span class="a-label">Campo de texto</span>
-				<input
-					type="email"
-					id="campo"
-					class="a-input"
-					placeholder="Campo de texto"
-				/>
-				<span class="a-input__error">Error</span>
-			</label>
-		</form>
-		<script
-			type="module"
-			src="../js/ejemplo.js"
-		></script>
+		<h1>Ejercicio 11</h1>
 	</body>
 </html>
