@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<style>
+			:root {
+				--font-fallback-base:
+					system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+					"Noto Sans", helvetica, arial, sans-serif,
+					"Apple Color Emoji", "Segoe UI Emoji";
+				--font-fallback-tahoma:
+					"Adjusted Tahoma Fallback", var(--font-fallback-base);
+				--font-fallback-poppins:
+					"Adjusted Arial Fallback", var(--font-fallback-base);
+				--font-heading: "Big Shoulders", var(--font-fallback-tahoma);
+				--font-body: Poppins, var(--font-fallback-poppins);
+			}
+			@font-face {
+				font-family: "Adjusted Tahoma Fallback";
+				src: local(Tahoma);
+				size-adjust: 99%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: -1.7px;
+				word-spacing: 0px;
+				font-size: 16px;
+			}
+
+			@font-face {
+				font-family: "Adjusted Arial Fallback";
+				src: local(Arial);
+				size-adjust: 109%;
+				descent-override: 43%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: 0.95px;
+				word-spacing: -0.65px;
+			}
+
+			@font-face {
+				font-family: "Big Shoulders";
+				src:
+					local("Big Shoulders Display"),
+					local("BigShouldersDisplay"),
+					url("../assets/fonts/big-shoulders/big-shoulders-v2-latin-900.woff2")
+						format("woff2");
+				font-weight: var(--weight-black);
+				font-style: normal;
+				font-display: swap;
+			}
+
+			@font-face {
+				font-family: "Poppins";
+				src:
+					local("Poppins"),
+					local("Poppins"),
+					url("../assets/fonts/poppins/Poppins-Light.woff2")
+						format("woff2");
+				font-weight: var(--weight-light);
+				font-style: normal;
+				font-display: swap;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			href="../css/index.css"
+		/>
+		<title>Ejercicio 24</title>
+	</head>
+	<body id="body">
+		<main class="flex-center flex-col p-5">
+			<h1>Ejercicio 24</h1>
+			<button
+				id="button-change-color"
+				class="a-button"
+			>
+				<span class="a-button__text">Cambiar el color del fondo </span>
+			</button>
+		</main>
+		<script
+			type="module"
+			src="../js/ejercicio24.js"
+		></script>
+	</body>
+</html>
