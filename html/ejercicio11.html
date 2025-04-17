@@ -1,27 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ejercicio11</title>
-    <script>
-    
-    const km = parseFloat(prompt("Ingrese los kilómetros recorridos:"));
-    const ls = parseFloat(prompt("Ingrese los litros de combustible consumidos:"));
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<style>
+			:root {
+				--font-fallback-base:
+					system-ui, -apple-system, blinkmacsystemfont, "Segoe UI",
+					"Noto Sans", helvetica, arial, sans-serif,
+					"Apple Color Emoji", "Segoe UI Emoji";
+				--font-fallback-tahoma:
+					"Adjusted Tahoma Fallback", var(--font-fallback-base);
+				--font-fallback-poppins:
+					"Adjusted Arial Fallback", var(--font-fallback-base);
+				--font-heading: "Big Shoulders", var(--font-fallback-tahoma);
+				--font-body: Poppins, var(--font-fallback-poppins);
+			}
+			@font-face {
+				font-family: "Adjusted Tahoma Fallback";
+				src: local(Tahoma);
+				size-adjust: 99%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: -1.7px;
+				word-spacing: 0px;
+				font-size: 16px;
+			}
 
+			@font-face {
+				font-family: "Adjusted Arial Fallback";
+				src: local(Arial);
+				size-adjust: 109%;
+				descent-override: 43%;
+				font-size: 16px;
+				line-height: 1.6;
+				letter-spacing: 0.95px;
+				word-spacing: -0.65px;
+			}
 
-    const consumoPorKm = ls / km ;
+			@font-face {
+				font-family: "Big Shoulders";
+				src:
+					local("Big Shoulders Display"),
+					local("BigShouldersDisplay"),
+					url("../assets/fonts/big-shoulders/big-shoulders-v2-latin-900.woff2")
+						format("woff2");
+				font-weight: var(--weight-black);
+				font-style: normal;
+				font-display: swap;
+			}
 
-    
-    alert(`El consumo de combustible por kilómetro es: ${consumoPorKm.toFixed(2)} litros/km`)
-    </script>
-</head>
-<body>
-	<h1>ejercicio11</h1>
-    <script
-        type="module"
-        src="../js/ejercicio11.js"
-    ></script>
+			@font-face {
+				font-family: "Poppins";
+				src:
+					local("Poppins"),
+					local("Poppins"),
+					url("../assets/fonts/poppins/Poppins-Light.woff2")
+						format("woff2");
+				font-weight: var(--weight-light);
+				font-style: normal;
+				font-display: swap;
+			}
+		</style>
+		<link
+			rel="stylesheet"
+			href="../css/index.css"
+		/>
+		<title>ejercicio11</title>
+		<script>
+			const km = parseFloat(prompt("Ingrese los kilómetros recorridos:"));
+			const ls = parseFloat(
+				prompt("Ingrese los litros de combustible consumidos:"),
+			);
 
-</body>
+			const consumoPorKm = ls / km;
+
+			alert(
+				`El consumo de combustible por kilómetro es: ${consumoPorKm.toFixed(2)} litros/km`,
+			);
+		</script>
+	</head>
+	<title>Ejercicio 11</title>
+	<body>
+		<h1>Ejercicio 11</h1>
+	</body>
 </html>
