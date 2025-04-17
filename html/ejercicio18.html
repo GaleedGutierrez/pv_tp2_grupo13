@@ -64,6 +64,33 @@
 				font-style: normal;
 				font-display: swap;
 			}
+
+                body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+        background-color: #f0f8ff;
+        }
+
+        p {
+        font-size: 20px;
+        color: #333;
+        }
+
+        button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+        background-color: #45a049;
+        }
 		</style>
 		<link
 			rel="stylesheet"
@@ -72,10 +99,12 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<h1>Ejercicio 15</h1>
+		<h1>Ejercicio 18</h1>
+        <p id="miParrafo">Este es el texto original del párrafo.</p>
+        <button onclick="cambiarTexto()">Cambiar Texto</button>
 		<script
 			type="module"
-			src="../js/ejercicio15.js"
+			src="../js/ejercicio18.js"
 		></script>
 	</body>
 </html>
