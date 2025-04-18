@@ -1,4 +1,0 @@
-npx lint-staged
-npm run prettier:fix
-npm run lint-md:fix
-npm run check-for-dupes
